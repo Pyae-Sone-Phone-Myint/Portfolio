@@ -42,7 +42,7 @@ const Home = () => {
             believable.
           </motion.p>
           {/* btn */}
-          <div className="flex justify-center xl:hidden relative">
+          <div className="flex justify-center xl:hidden relative z-50">
             <ProjectsBtn />
           </div>
           <motion.div
@@ -50,7 +50,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className=" hidden xl:flex"
+            className=" hidden xl:flex relative z-50"
           >
             <ProjectsBtn />
           </motion.div>
@@ -69,7 +69,7 @@ const Home = () => {
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className=" w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0  lg:right-[8%]"
+          className=" w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0  lg:right-[8%] hidden xl:flex"
         >
           <Avatar />
         </motion.div>
