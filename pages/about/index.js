@@ -6,8 +6,9 @@ import {
   FaCss3,
   FaJs,
   FaReact,
-  FaWordpress,
   FaFigma,
+  FaPhp,
+  FaLaravel,
 } from "react-icons/fa";
 
 import {
@@ -31,7 +32,8 @@ const aboutData = [
           <FaReact />,
           <SiNextdotjs />,
           <SiFramer />,
-          <FaWordpress />,
+          <FaPhp />,
+          <FaLaravel />,
         ],
       },
       {
@@ -41,15 +43,19 @@ const aboutData = [
     ],
   },
   {
-    title: "awards",
+    title: "courses",
     info: [
       {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
+        title: "SWD ( Special Web Design )",
+        stage: "2022-2023",
       },
       {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
+        title: "WAD ( Web Application Development)",
+        stage: "2022 - 2023",
+      },
+      {
+        title: "Harvard CS50 - Computer Science Course",
+        stage: "2022 - 2023",
       },
     ],
   },
@@ -57,16 +63,16 @@ const aboutData = [
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Frontend Development - MMSIT",
+        stage: "2022 - present",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
+        title: "Backend Development - MMSIT",
+        stage: "2022 - present",
       },
       {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "Full Stack Development",
+        stage: "Progressing",
       },
     ],
   },
@@ -74,16 +80,20 @@ const aboutData = [
     title: "credentials",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "No.1 Basic Education High School North Okkalapa",
+        stage: "2016",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
+        title: "Technology University (Hmawbi) - Mechanical Power",
+        stage: "2020",
       },
       {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "Certified Frontend Developer",
+        stage: "2023",
+      },
+      {
+        title: "Certified Backend Developer",
+        stage: "2023",
       },
     ],
   },
@@ -135,9 +145,10 @@ const About = () => {
             exit="hidden"
             className=" max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I began freelancing as a developer. Since then, I've
-            done remote work for agencies, consulted for startups, and
-            collaborated on digital products for business and consumer use.
+            I bring a keen eye for design and aesthetics, allowing me to
+            contribute valuable insights during the design and development
+            phases. I thrive in fast-paced environments where I can contribute
+            innovative ideas and work collaboratively to achieve project goals.
           </motion.p>
           {/* counters */}
           <motion.div
