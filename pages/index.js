@@ -42,7 +42,7 @@ const Home = () => {
               exit="hidden"
               className=" max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
             >
-              Hi there! I'm Pyae Sone Phone Myint, a dedicated frontend
+              Hi there! I&apos;m Pyae Sone Phone Myint, a dedicated frontend
               developer with a passion for crafting captivating user experiences
               through elegant and functional web design.You are a fellow
               developer or just someone who loves all things web-related, I

@@ -31,7 +31,7 @@ const Work = () => {
               exit="hidden"
               className=" mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              I'm so energetic to explore more projects with you. Feel free to explore my projects. This is my work of arts.
+              I&apos;m so energetic to explore more projects with you. Feel free to explore my projects. This is my work of arts.
             </motion.p>
           </div>
           {/* slider */}
