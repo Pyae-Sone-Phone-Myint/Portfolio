@@ -72,7 +72,7 @@ const aboutData = [
       },
       {
         title: "Full Stack Development",
-        stage: "Progressing",
+        stage: "In progress",
       },
     ],
   },
