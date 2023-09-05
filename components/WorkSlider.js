@@ -4,22 +4,22 @@ const workSlides = {
     {
       images: [
         {
-          title: "title",
+          title: "gowilds",
           path: "/p-6.png",
           link: "https://gowilds-d.netlify.app/",
         },
         {
-          title: "title",
+          title: "goldwilds-dashboard",
           path: "/p-7.png",
           link: "https://goldwilds-dashboard.netlify.app/",
         },
         {
-          title: "title",
+          title: "my-portfolio",
           path: "/p-5.png",
           link: "https://my-portfolio-d.netlify.app/",
         },
         {
-          title: "title",
+          title: "contactify",
           path: "/p-4.png",
           link: "https://teamd-contactify.netlify.app/",
         },
@@ -28,19 +28,43 @@ const workSlides = {
     {
       images: [
         {
-          title: "title",
-          path: "/p-5.png",
-          link: "https://my-portfolio-d.netlify.app/",
+          title: "web-pos",
+          path: "/web-pos1.png",
+          link: "https://drawsql.app/teams/testing-99/diagrams/web-pos",
         },
         {
           title: "title",
-          path: "/p-4.png",
-          link: "https://teamd-contactify.netlify.app/",
+          path: "/blog1.png",
+          link: "https://drawsql.app/teams/testing-99/diagrams/blog",
         },
         {
           title: "title",
-          path: "/p-6.png",
-          link: "https://gowilds-d.netlify.app/",
+          path: "/contact-api1.png",
+          link: "https://drawsql.app/teams/testing-99/diagrams/contact-api",
+        },
+        {
+          title: "title",
+          path: "/p-7.png",
+          link: "https://goldwilds-dashboard.netlify.app/",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "web-pos-api",
+          path: "/web-pos-api1.png",
+          link: "https://github.com/Z1p4U/Web-POS/tree/dev",
+        },
+        {
+          title: "title",
+          path: "/blog-api1.png",
+          link: "https://github.com/Pyae-Sone-Phone-Myint/Blog.git",
+        },
+        {
+          title: "title",
+          path: "/contact-api-developing1.png",
+          link: "https://github.com/Pyae-Sone-Phone-Myint/contact-api-developing.git",
         },
         {
           title: "title",

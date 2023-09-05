@@ -6,8 +6,7 @@ import {
   RiFacebookLine,
   RiYoutubeLine,
   RiInstagramLine,
-  RiDribbbleLine,
-  RiBehanceLine,
+  RiGithubFill,
   RiPinterestLine,
 } from "react-icons/ri";
 
@@ -27,22 +26,18 @@ const Socials = () => {
         <RiInstagramLine />
       </Link>
       <Link
-        href={""}
+        href={"https://www.facebook.com/profile.php?id=100012165210505"}
+        target="_blank"
         className=" hover:text-accent transition-all duration-300"
       >
         <RiFacebookLine />
       </Link>
       <Link
-        href={""}
+        href={"https://github.com/Pyae-Sone-Phone-Myint"}
+        target="_blank"
         className=" hover:text-accent transition-all duration-300"
       >
-        <RiDribbbleLine />
-      </Link>
-      <Link
-        href={""}
-        className=" hover:text-accent transition-all duration-300"
-      >
-        <RiBehanceLine />
+        <RiGithubFill />
       </Link>
       <Link
         href={""}
