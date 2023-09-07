@@ -18,7 +18,7 @@ const Home = () => {
     <>
       <Head>
         <title>My Portfolio</title>
-        <link rel="icon" href="/avatar.png"/>
+        <link rel="icon" href="/avatar.png" />
       </Head>
       <div className=" bg-primary/60 h-full">
         {/* text */}
@@ -32,8 +32,8 @@ const Home = () => {
               exit="hidden"
               className="h1"
             >
-              Transforming Ideas <br /> Into{" "}
-              <span className=" text-accent">Digital Reality</span>
+              Hi! I&apos;m Pyae Sone <br/>
+              <span className=" text-accent">Backend Developer</span> 
             </motion.h1>
             <motion.p
               variants={fadeIn("down", 0.3)}
@@ -42,12 +42,14 @@ const Home = () => {
               exit="hidden"
               className=" max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
             >
-              Hi there! I&apos;m Pyae Sone Phone Myint, a dedicated frontend
-              developer with a passion for crafting captivating user experiences
-              through elegant and functional web design.You are a fellow
-              developer or just someone who loves all things web-related, I
-              invite you to explore my portfolio and discover how I can
-              contribute to your next digital venture.
+              I am a dedicated and experienced backend developer with a passion
+              for building robust and scalable systems. With a strong foundation
+              in server-side technologies, databases, and API development, I
+              take pride in crafting efficient and reliable solutions that power
+              the backbone of web and software applications. I am committed to
+              staying up-to-date with industry best practices and emerging
+              trends, ensuring that I deliver high-quality code that meets both
+              user and business needs.
             </motion.p>
             {/* btn */}
             <div className="flex justify-center xl:hidden relative z-[5]">

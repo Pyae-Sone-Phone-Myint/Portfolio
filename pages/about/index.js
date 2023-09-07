@@ -116,7 +116,7 @@ const About = () => {
     <div className=" h-full bg-primary/30 py-32 text-center xl:text-left">
       <Circles />
       {/* avatar img */}
-      <motion.div
+      {/* <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"
         animate="show"
@@ -124,7 +124,7 @@ const About = () => {
         className=" hidden xl:flex absolute bottom-0 -left-[370px]"
       >
         <Avatar />
-      </motion.div>
+      </motion.div> */}
       <div className=" container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* text */}
         <div className=" flex flex-col w-full flex-1 justify-center">
@@ -171,7 +171,7 @@ const About = () => {
               {/* clients */}
               <div className=" relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className=" text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={250} duration={5} /> +
+                  <CountUp start={0} end={20} duration={5} /> +
                 </div>
                 <div className=" text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Satisfied clients
@@ -180,7 +180,7 @@ const About = () => {
               {/* projects */}
               <div className=" relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className=" text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={650} duration={5} /> +
+                  <CountUp start={0} end={10} duration={5} /> +
                 </div>
                 <div className=" text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects
@@ -189,7 +189,7 @@ const About = () => {
               {/* awards */}
               <div className=" relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className=" text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={5} duration={5} /> +
+                  <CountUp start={0} end={2} duration={5} /> +
                 </div>
                 <div className=" text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Winning awards

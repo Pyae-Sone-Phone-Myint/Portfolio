@@ -28,24 +28,24 @@ const workSlides = {
     {
       images: [
         {
-          title: "web-pos",
+          title: "database-design",
           path: "/web-pos1.png",
           link: "https://drawsql.app/teams/testing-99/diagrams/web-pos",
         },
         {
-          title: "title",
+          title: "database-design",
           path: "/blog1.png",
           link: "https://drawsql.app/teams/testing-99/diagrams/blog",
         },
         {
-          title: "title",
+          title: "database-design",
           path: "/contact-api1.png",
           link: "https://drawsql.app/teams/testing-99/diagrams/contact-api",
         },
         {
-          title: "title",
-          path: "/p-7.png",
-          link: "https://goldwilds-dashboard.netlify.app/",
+          title: "pos-workflow",
+          path: "/workflow.png",
+          link: "https://www.figma.com/file/w8mePlytBLrtHJqxbx5rrk/Web-pos?type=whiteboard&node-id=0%3A1&t=1IhdsLUXvoKdCkLx-1",
         },
       ],
     },
@@ -53,23 +53,32 @@ const workSlides = {
       images: [
         {
           title: "web-pos-api",
-          path: "/web-pos-api1.png",
-          link: "https://github.com/Z1p4U/Web-POS/tree/dev",
+          path: "/pos.png",
+          link: "https://github.com/Pyae-Sone-Phone-Myint/Web-POS#readme",
         },
         {
-          title: "title",
+          title: "blog",
           path: "/blog-api1.png",
           link: "https://github.com/Pyae-Sone-Phone-Myint/Blog.git",
         },
         {
-          title: "title",
-          path: "/contact-api-developing1.png",
-          link: "https://github.com/Pyae-Sone-Phone-Myint/contact-api-developing.git",
+          title: "contact-api",
+          path: "/contact.png",
+          link: "https://github.com/Pyae-Sone-Phone-Myint/contact-api-developing#readme",
         },
         {
-          title: "title",
-          path: "/p-7.png",
-          link: "https://goldwilds-dashboard.netlify.app/",
+          title: "POS development",
+          path: "/pos-ui.png",
+          link: "https://webpos1.netlify.app/",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "product design",
+          path: "/product-design.png",
+          link: "https://www.figma.com/file/qEjAblCjW9tyAi9aaMuy8J/pos-system(copy)?type=design&node-id=52-1248&mode=design&t=RmTuG5LZEyaZCUZC-0",
         },
       ],
     },
@@ -125,8 +134,8 @@ const WorkSlider = () => {
                           {/* title part 1 */}
                           <div className=" delay-100">LIVE</div>
                           {/* title part 2 */}
-                          <div className=" translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
-                            PROJECT
+                          <div className=" translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150 uppercase">
+                            {image.title}
                           </div>
                           {/* icon */}
                           <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200">

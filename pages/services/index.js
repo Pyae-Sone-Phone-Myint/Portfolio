@@ -31,8 +31,7 @@ const Services = () => {
               exit="hidden"
               className=" mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
-              eveniet dignissimos distinctio tempore harum laudantium.
+              Here is my services bringing for you to create powerful website.
             </motion.p>
           </div>
           {/* slider */}

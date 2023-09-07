@@ -12,28 +12,28 @@ import {
 const serviceData = [
   {
     icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Design",
+    description: "Powerful responsive and interactive web design.",
   },
   {
     icon: <RxPencil2 />,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Database Design",
+    description: " Optimize web applications for performance.",
   },
   {
     icon: <RxDesktop />,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Api Development",
+    description: "Design robust APIs to support mobile and desktop clients.",
   },
   {
     icon: <RxReader />,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Documentation",
+    description: " API documentation for collaboration among team members",
   },
   {
     icon: <RxRocket />,
     title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Improving website performance and user experience",
   },
 ];
 
