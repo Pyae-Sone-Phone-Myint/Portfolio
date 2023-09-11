@@ -26,19 +26,23 @@ const aboutData = [
       {
         title: "Web Development",
         icons: [
-          <FaHtml5 key={''}/>,
-          <FaCss3 key={''}/>,
-          <FaJs key={''}/>,
-          <FaReact key={''}/>,
-          <SiNextdotjs key={''}/>,
-          <SiFramer key={''}/>,
-          <FaPhp key={''}/>,
-          <FaLaravel key={''}/>,
+          <FaHtml5 key={""} />,
+          <FaCss3 key={""} />,
+          <FaJs key={""} />,
+          <FaReact key={""} />,
+          <SiNextdotjs key={""} />,
+          <SiFramer key={""} />,
+          <FaPhp key={""} />,
+          <FaLaravel key={""} />,
         ],
       },
       {
         title: "UI/UX Design",
-        icons: [<FaFigma key={''}/>, <SiAdobexd key={''}/>, <SiAdobephotoshop key={''}/>],
+        icons: [
+          <FaFigma key={""} />,
+          <SiAdobexd key={""} />,
+          <SiAdobephotoshop key={""} />,
+        ],
       },
     ],
   },
@@ -63,16 +67,46 @@ const aboutData = [
     title: "experience",
     info: [
       {
-        title: "Frontend Development - MMSIT",
-        stage: "2022 - present",
+        title: "Frontend Development",
+        description: [
+          {
+            stage: "Optimize applications for maximum speed,",
+          },
+          {
+            stage: "Responsive and interactive web design,",
+          },
+          {
+            stage: "Follow DRY principle and making reusable components,",
+          },
+          {
+            stage: "Stay up-to-date on emerging technologies,",
+          },
+          {
+            stage:
+              "Collaborate with backend developers and web designers to improve usability",
+          },
+        ],
       },
       {
-        title: "Backend Development - MMSIT",
-        stage: "2022 - present",
-      },
-      {
-        title: "Full Stack Development",
-        stage: "In progress",
+        title: "Backend Development",
+        description: [
+          {
+            stage: "Write code and tests, build prototypes, resolve issues,",
+          },
+          {
+            stage: "Design robust APIs to support mobile and desktop clients,",
+          },
+          {
+            stage: "Optimize web applications for performance and scalability,",
+          },
+          {
+            stage:
+              "Maintained detailed  API documentation to facilitate seamless collaboration among team members,",
+          },
+          {
+            stage: "Server Deployment",
+          },
+        ],
       },
     ],
   },
@@ -187,14 +221,14 @@ const About = () => {
                 </div>
               </div>
               {/* awards */}
-              <div className=" relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+              {/* <div className=" relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className=" text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={2} duration={5} /> +
                 </div>
                 <div className=" text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Winning awards
                 </div>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>
@@ -227,12 +261,21 @@ const About = () => {
               return (
                 <div
                   key={itemIndex}
-                  className=" flex-1 flex flex-col md:flex-row max-w-max gap-x-2 text-center text-white/70"
+                  className={`flex-1 flex flex-col md:flex-row max-w-max gap-x-2 text-left text-white/70`}
                 >
                   {/* title */}
                   <div className=" font-light mb-2 md:mb-0">{item.title}</div>
                   <div className=" hidden md:flex">-</div>
                   <div>{item.stage}</div>
+                  <div>
+                    {item.description?.map((job, index) => {
+                      return (
+                        <>
+                          <div key={index}>{job.stage}</div>
+                        </>
+                      );
+                    })}
+                  </div>
                   <div className=" flex gap-x-4">
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {

@@ -1,6 +1,7 @@
 // next image
 import Image from "next/image";
 import Head from "next/head";
+import Link from "next/link";
 
 // components
 import ParticlesContainer from "../components/ParticlesContainer";
@@ -32,35 +33,46 @@ const Home = () => {
               exit="hidden"
               className="h1"
             >
-              Hi! I&apos;m Pyae Sone <br/>
-              <span className=" text-accent">Backend Developer</span> 
+              Hi! I&apos;m Pyae Sone <br />
+              <span className=" text-accent">Backend Developer</span>
             </motion.h1>
             <motion.p
               variants={fadeIn("down", 0.3)}
               initial="hidden"
               animate="show"
               exit="hidden"
-              className=" max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+              className=" max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-5 xl:mb-0"
             >
               I am a dedicated and experienced backend developer with a passion
               for building robust and scalable systems. With a strong foundation
               in server-side technologies, databases, and API development, I
               take pride in crafting efficient and reliable solutions that power
-              the backbone of web and software applications. I am committed to
-              staying up-to-date with industry best practices and emerging
-              trends, ensuring that I deliver high-quality code that meets both
-              user and business needs.
+              the backbone of web and software applications.
             </motion.p>
             {/* btn */}
-            <div className="flex justify-center xl:hidden relative z-[5]">
-              <ProjectsBtn />
-            </div>
             <motion.div
               variants={fadeIn("down", 0.4)}
               initial="hidden"
               animate="show"
               exit="hidden"
-              className=" hidden xl:flex relative z-[5]"
+              className=" max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 text-right relative z-[5] "
+            >
+              <Link
+                href="/Backend-CV.pdf"
+                className=" px-5 py-2 capitalize text-sm bg-accent rounded-md hover:bg-[#ff6d62] transition-all duration-300"
+              >
+                Download CV
+              </Link>
+            </motion.div>
+            <div className="flex justify-center xl:hidden relative z-[5]">
+              <ProjectsBtn />
+            </div>
+            <motion.div
+              variants={fadeIn("down", 0.5)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+              className=" hidden xl:flex relative z-[5] items-center"
             >
               <ProjectsBtn />
             </motion.div>
