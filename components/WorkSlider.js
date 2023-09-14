@@ -80,6 +80,11 @@ const workSlides = {
           path: "/product-design.png",
           link: "https://www.figma.com/file/qEjAblCjW9tyAi9aaMuy8J/pos-system(copy)?type=design&node-id=52-1248&mode=design&t=RmTuG5LZEyaZCUZC-0",
         },
+        {
+          title: "POS documentation",
+          path: "/pos-documentation.png",
+          link: "https://tommys-organization-4.gitbook.io/web-pos/",
+        },
       ],
     },
   ],
