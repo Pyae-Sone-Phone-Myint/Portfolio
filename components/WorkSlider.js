@@ -28,43 +28,43 @@ const workSlides = {
     {
       images: [
         {
-          title: "database-design",
-          path: "/web-pos1.png",
-          link: "https://drawsql.app/teams/testing-99/diagrams/web-pos",
+          title: "blog",
+          path: "/blog-api1.png",
+          link: "https://github.com/Pyae-Sone-Phone-Myint/Blog.git",
         },
         {
-          title: "database-design",
+          title: "blog-database-design",
           path: "/blog1.png",
           link: "https://drawsql.app/teams/testing-99/diagrams/blog",
         },
         {
-          title: "database-design",
-          path: "/contact-api1.png",
-          link: "https://drawsql.app/teams/testing-99/diagrams/contact-api",
+          title: "contact-api",
+          path: "/contact.png",
+          link: "https://github.com/Pyae-Sone-Phone-Myint/contact-api-developing#readme",
         },
         {
-          title: "pos-workflow",
-          path: "/workflow.png",
-          link: "https://www.figma.com/file/w8mePlytBLrtHJqxbx5rrk/Web-pos?type=whiteboard&node-id=0%3A1&t=1IhdsLUXvoKdCkLx-1",
+          title: "contact-database-design",
+          path: "/contact-api1.png",
+          link: "https://drawsql.app/teams/testing-99/diagrams/contact-api",
         },
       ],
     },
     {
       images: [
         {
+          title: "pos-workflow",
+          path: "/pos-workflow.png",
+          link: "https://www.figma.com/file/w8mePlytBLrtHJqxbx5rrk/Web-pos?type=whiteboard&node-id=0%3A1&t=1IhdsLUXvoKdCkLx-1",
+        },
+        {
+          title: "web-pos-database-design",
+          path: "/web-pos1.png",
+          link: "https://drawsql.app/teams/testing-99/diagrams/web-pos",
+        },
+        {
           title: "web-pos-api",
           path: "/pos.png",
           link: "https://github.com/Pyae-Sone-Phone-Myint/Web-POS#readme",
-        },
-        {
-          title: "blog",
-          path: "/blog-api1.png",
-          link: "https://github.com/Pyae-Sone-Phone-Myint/Blog.git",
-        },
-        {
-          title: "contact-api",
-          path: "/contact.png",
-          link: "https://github.com/Pyae-Sone-Phone-Myint/contact-api-developing#readme",
         },
         {
           title: "POS development",
@@ -76,14 +76,19 @@ const workSlides = {
     {
       images: [
         {
+          title: "POS documentation",
+          path: "/pos-documentation.png",
+          link: "https://tommys-organization-4.gitbook.io/web-pos/",
+        },
+        {
           title: "product design",
           path: "/product-design.png",
           link: "https://www.figma.com/file/qEjAblCjW9tyAi9aaMuy8J/pos-system(copy)?type=design&node-id=52-1248&mode=design&t=RmTuG5LZEyaZCUZC-0",
         },
         {
-          title: "POS documentation",
-          path: "/pos-documentation.png",
-          link: "https://tommys-organization-4.gitbook.io/web-pos/",
+          title: "restaurant-workflow",
+          path: "/restaurant-api-workflow.png",
+          link: "https://www.figma.com/file/cNB8qBDmDtg2WpyGRW1d4j/Restaurant-API?type=whiteboard&node-id=0%3A1&t=SXnWB6K5GOghNFhw-1",
         },
       ],
     },
