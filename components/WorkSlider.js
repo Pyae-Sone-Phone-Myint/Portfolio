@@ -90,6 +90,20 @@ const workSlides = {
           path: "/restaurant-api-workflow.png",
           link: "https://www.figma.com/file/cNB8qBDmDtg2WpyGRW1d4j/Restaurant-API?type=whiteboard&node-id=0%3A1&t=SXnWB6K5GOghNFhw-1",
         },
+        {
+          title: "web-service-doc",
+          path: "/web-service-doc.png",
+          link: "https://tommys-organization-4.gitbook.io/ngo-management-system-web-service/ngo-management-system-web-service",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "web-service",
+          path: "/web-service.png",
+          link: "https://github.com/Pyae-Sone-Phone-Myint/WEB-SERVICES-TEST.git",
+        },
       ],
     },
   ],
