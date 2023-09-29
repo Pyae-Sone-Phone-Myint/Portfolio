@@ -104,6 +104,11 @@ const workSlides = {
           path: "/web-service.png",
           link: "https://github.com/Pyae-Sone-Phone-Myint/WEB-SERVICES-TEST.git",
         },
+        {
+          title: "web-service-database",
+          path: "/web-service-db.png",
+          link: "https://drawsql.app/teams/testing-99/diagrams/ngo-management-system-web-service",
+        },
       ],
     },
   ],
